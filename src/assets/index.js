@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import python from "./tech/python.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -21,10 +21,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import a2sv from "./company/a2sv.png";
+import zte from "./company/zte.png";
+import aau from "./company/aau.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -40,7 +39,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  python,
   figma,
   git,
   html,
@@ -52,10 +51,9 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  aau,
+  zte,
+  a2sv,
   carrent,
   jobit,
   tripguide,
