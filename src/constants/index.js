@@ -18,8 +18,8 @@ import {
     aau,
     zte,
     a2sv,
-    carrent,
-    jobit,
+    mosdetector,
+    leo_clothing,
     tripguide,
     threejs,
   } from "../assets";
@@ -41,11 +41,11 @@ import {
   
   const services = [
     {
-      title: "React Developer",
+      title: "Web Developer",
       icon: web,
     },
     {
-      title: "Flutter Developer",
+      title: "Mobile Developer",
       icon: mobile,
     },
     {
@@ -203,68 +203,68 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Mos Detector",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A robust machine learning model for mosquito species identification using wingbeat sounds.Integrated with a mobile app with audio recording and classification, facilitating scientific research for mosquito-borne diseases and species identification.",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "flask",
+          color: "green-text-gradient",
+        },
+        {
+          name: "machine_learning",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: mosdetector,
+      source_code_link: "https://github.com/BrukMak/Multi-Species-Mosquito-Detection-with-Audio-Classification",
+    },
+    {
+      name: "Leo Clothing",
+      description:
+        "A dynamic e-commerce platform for clothing enthusiasts to browse and shop for the latest fashion trends, featuring user-friendly navigation, detailed product listings, and seamless checkout.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "typescript",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: leo_clothing,
+      source_code_link: "https://github.com/BrukMak/Leo-clothing",
     },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

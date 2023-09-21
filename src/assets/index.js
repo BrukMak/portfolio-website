@@ -25,8 +25,8 @@ import a2sv from "./company/a2sv.png";
 import zte from "./company/zte.png";
 import aau from "./company/aau.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import mosdetector from "./mosdetector.png";
+import leo_clothing from "./leo_clothing.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -54,7 +54,7 @@ export {
   aau,
   zte,
   a2sv,
-  carrent,
-  jobit,
+  mosdetector,
+  leo_clothing,
   tripguide,
 };
