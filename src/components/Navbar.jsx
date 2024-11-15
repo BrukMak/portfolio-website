@@ -24,6 +24,7 @@ const Navbar = () => {
           <img src={ logo } alt="logo" className='w-5 h-5 object-contain'/>
           <p className='text-white text-[18px] font-bold cursor-pointer flex'>Bruk Mekonnen &nbsp; 
           <span className='sm:block hidden'>|&nbsp; Software Engineer </span></p>
+
         </Link>
         <ul className='flex-row list-none hidden sm:flex gap-10'>
           {navLinks.map((link) =>
@@ -50,7 +51,7 @@ const Navbar = () => {
           <div className= {`${!toggle ? 'hidden' : 'flex'} p-6 black-gradient absolute 
           top-20 right-0 mx-4 my-2 min-w-[140px] z-10 round-x1`}>
               <ul className='list-none flex justify-end items-start flex-col gap-4'>
-              {navLinks.map((link) =>
+              {/* {navLinks.map((link) =>
               <li
                 key= {link.id}
                 className={`${active === link.title
@@ -64,7 +65,8 @@ const Navbar = () => {
             }}
               >
                 <a href = {`#${link.id}`}>{link.title}</a>
-              </li> )}
+              </li> 
+            )} */}
             </ul>  
           </div>
 

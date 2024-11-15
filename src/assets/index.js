@@ -28,6 +28,8 @@ import aau from "./company/aau.png";
 import mosdetector from "./mosdetector.png";
 import leo_clothing from "./leo_clothing.png";
 import tripguide from "./tripguide.png";
+import main_pic from "./main_pic.png";
+import down_arrow from "./down_arrow.png";
 
 export {
   logo,
@@ -57,4 +59,6 @@ export {
   mosdetector,
   leo_clothing,
   tripguide,
+  main_pic,
+  down_arrow,
 };

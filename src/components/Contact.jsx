@@ -74,7 +74,7 @@ const Contact = () => {
         className='flex-[0.75] p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
 
         <form
           ref={formRef}
@@ -89,7 +89,8 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium'
+              
+              className='bg-tertiary py-4 px-6 placeholder:text-white focus:placeholder:text-sm focus:placeholder:opacity-30 text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -100,7 +101,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email address?"
-              className='bg-tertiary py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-white focus:placeholder:text-sm focus:placeholder:opacity-30  text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -111,25 +112,21 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
-              className='bg-tertiary py-4 px-6 placeholder:text-white text-white rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-white focus:placeholder:text-sm focus:placeholder:opacity-30  text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none  text-white font-bold shadow-md w-fit shadow-tertiary'
+            className={`bg-tertiary py-3 px-8 rounded-xl outline-none text-white font-bold shadow-md w-fit shadow-tertiary 
+            ${loading ? 'scale-105 opacity-70' : ''} transition-transform duration-200 ease-in-out`}
+            onClick={() => setLoading(true)}
           >
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </motion.div>
 
-      {/* <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
-      >
-        <EarthCanvas />
-      </motion.div> */}
     </div>
   );
 };

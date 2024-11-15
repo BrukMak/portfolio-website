@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import text from './text.json';
+import { down_arrow } from "../assets";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -39,24 +41,30 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>From Passion to Impact: My Journey in Tech and Innovation</p>
+        <h2 className={styles.sectionHeadText}>Introduction</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-       I'm an avid enthusiast of machine learning, always eager to explore its potential. My journey in the tech world extends 
-       into web development, where I specialize in TypeScript and JavaScript, focusing on frameworks like React and Node.js. 
-       Complementing my web skills, I'm proficient in Flutter for mobile app development. Additionally, Python is another tool in 
-       my arsenal, which I wield to enhance various facets of my projects. Let's collaborate to transform your concepts into digital reality.
+      <p className= {`mt-2 text-white-100`} style={{ whiteSpace: 'pre-line' }}>
+              {text.detail}
+            </p>
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-10 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+      </div>
+      <div className="flex justify-center mt-8">
+        
+        <a href="#work">
+          <img src={down_arrow} alt="Arrow Icon" className="w-[40px] h-auto absolute bottom-[30px] animate-updown "/>
+        </a>
+        
       </div>
     </>
   );

@@ -1,6 +1,6 @@
-- Drop the rotating desk
-- The header sucks 
-- Change the balls to a card similar to the ones that has the skills above
+- Drop the rotating desk: Done
+- The header sucks: Not now
+- Change the balls to a card similar to the ones that has the skills above: ????
 - Include RateEat for the projects
 - The overview talks about ML and below I have development stuff. So making it consistent
 - Include social media accounts
@@ -9,9 +9,6 @@
 - The contact form
     - Edit mode
     - The information text should have transparency
+- Testimonials from LinkedIn
 
 
-
-Things to do:
-    1. Create glassdoor account and explore oportunities
-    2. 

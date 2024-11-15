@@ -46,8 +46,9 @@
 .green-blue-gradient {
   background: "#00cea8";
   background: linear-gradient(90.13deg,  rgb(21, 18, 39) 1.9%, #15037e 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #  background: linear-gradient(90.13deg, #00cea8 1.9%, #1f00d1 97.5%);
-  97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #2502a3 1.9%, #15037e);
+  background: linear-gradient(90.13deg, #000000 1.9%, #1901a1 97.5%);
+
 }
 
 .orange-text-gradient {

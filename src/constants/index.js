@@ -22,9 +22,15 @@ import {
     leo_clothing,
     tripguide,
     threejs,
+    main_pic
   } from "../assets";
   
   export const navLinks = [
+    {
+      id: "",
+      title: "Home",
+    },
+
     {
       id: "about",
       title: "About",
@@ -32,6 +38,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "project",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -115,6 +125,30 @@ import {
   
   const experiences = [
     {
+      title: "Head of Academy (Deputy)",
+      company_name: "A2SV | Africa to Silicon Valley (Backed by Google)",
+      icon: a2sv,
+      iconBg: "#E6DEDD",
+      date: "Nov 2023 - present",
+      points: [
+        "Oversaw a software engineering academy for competitive programming, and software development.",
+        "Supervised a team of 25+ instructors (Heads of Education) who are teaching 250+ students.",
+        "Developed script to automate instructor and student management.",
+      ],
+    },
+    {
+      title: "Head of Education",
+      company_name: "A2SV | Africa to Silicon Valley (Backed by Google)",
+      icon: a2sv,
+      iconBg: "#E6DEDD",
+      date: "Dec 2022 - Nov 2023",
+      points: [
+        "Instructed a cohort of over 30 software engineering and computer science students in competitive programming and professional software development.",
+        "Delivered lessons covering competitive programming techniques and principles of professional software development.",
+        "Developed an automation script to enhance data analytics and improve operational efficiency.",
+      ],
+    },
+    {
       title: "Software Engineer Intern",
       company_name: "ZTE Corporation",
       icon: zte,
@@ -126,52 +160,23 @@ import {
         "Collaborating with cross-functional teams including Ethio Telecom ISP team.",
       ],
     },
-    {
-      title: "Competitive Programming",
-      company_name: "Africa to Silicon Valley",
-      icon: a2sv,
-      iconBg: "#E6DEDD",
-      date: "Dec 2021 - Nov 2022",
-      points: [
-        "One year of dedicated learning at Africa to Silicon Valley Data Structures and Algorithms Academy.",
-        "Strong proficiency in Python, used extensively for competitive programming.",
-        "Covered a wide range of topics, from basics to advanced data structures and algorithms.",
-        "Applied various problem-solving techniques learned during the program.",
-        "In-depth knowledge of key algorithms, including sorting, searching, and graph algorithms.",
-        "Expertise in data structures such as arrays, linked lists, trees, and graphs.",
-        "Active participation and problem-solving on online judge platforms (e.g., Codeforces, LeetCode, HackerRank).",
+    // {
+    //   title: "Competitive Programming",
+    //   company_name: "Africa to Silicon Valley",
+    //   icon: a2sv,
+    //   iconBg: "#E6DEDD",
+    //   date: "Dec 2021 - Nov 2022",
+    //   points: [
+    //     "One year of dedicated learning at Africa to Silicon Valley Data Structures and Algorithms Academy.",
+    //     "Strong proficiency in Python, used extensively for competitive programming.",
+    //     "Covered a wide range of topics, from basics to advanced data structures and algorithms.",
+    //     "Applied various problem-solving techniques learned during the program.",
+    //     "In-depth knowledge of key algorithms, including sorting, searching, and graph algorithms.",
+    //     "Expertise in data structures such as arrays, linked lists, trees, and graphs.",
+    //     "Active participation and problem-solving on online judge platforms (e.g., Codeforces, LeetCode, HackerRank).",
         
-      ],
-    },
-    {
-      title: "ML/Flutter Developer",
-      company_name: "Addis Ababa University",
-      icon: aau,
-      iconBg: "#383E56",
-      date: "March 2023 - July 2023",
-      points: [
-        "Developed a multi-species audio classification project for mosquito wingbeat sound as my graduation project.",
-        "Employed machine learning (ML) audio classification techniques to train a robust machine learning model for mosquito species identification.",
-        "Implemented a Flask backend to serve as the core of the application, handling audio data processing and classification.",
-        "Designed and developed a Flutter mobile app that allows users to record audio samples of mosquito wingbeats.",
-        "Integrated the trained ML model into the mobile app for real-time audio detection and species identification.",
-        "Contributed to scientific research by creating a tool that aids in the identification of mosquito species, which can be crucial for disease control and epidemiological studies."
-      ],
-    },
-    {
-      title: "Head of Education and Web Developer",
-      company_name: "Africa to Silicon Valley",
-      icon: a2sv,
-      iconBg: "#E6DEDD",
-      date: "Dec 2022 - Present",
-      points: [
-        "Head of Education for 30 students at Africa to Silicon Valley, teaching programming basics and data structures/algorithms.",
-        "Part of the React.js web development team for \"Afiyalense,\" a healthcare-focused computer vision project.",
-        "Contributing to React.js development, UI/UX, and feature implementation for \"Afiyalense.\"",
-        "Collaborating on a cutting-edge healthcare technology project with potential industry impact.",
-        "Active participation in the full software development lifecycle, from concept to deployment."
-      ],
-    },
+    //   ],
+    // },
   ];
   
   const testimonials = [
