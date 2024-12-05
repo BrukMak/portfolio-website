@@ -22,7 +22,7 @@ import {
     leo_clothing,
     tripguide,
     threejs,
-    main_pic
+    main_pic,
   } from "../assets";
   
   export const navLinks = [
@@ -121,6 +121,7 @@ import {
       name: "python",
       icon: python,
     },
+
   ];
   
   const experiences = [
@@ -182,27 +183,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "Working with Bruk at A2SV has been an incredible experience. His dedication to A2SV’s mission and his passion for shaping the future of Africa are truly inspiring. Bruk is not only extremely intelligent and thoughtful, but he also brings a great sense of humor that makes every challenge easier to tackle. He’s one of those people who leads with both heart and mind, and it’s been a privilege to collaborate with him.",
+      name: "Jerusalem A",
+      designation: "Senior Data Analyst| Payment Solutions| Operations",
+      company: "Utility Warehouse",
+      image: "https://media.istockphoto.com/id/1469197622/vector/default-avatar-female-profile-user-profile-icon-profile-picture-portrait-symbol-user-member.jpg?s=170667a&w=0&k=20&c=SXplzvE5DRx3YbAIs8hll1ZdvM8Ozfp_8s2WKcZSjQk%3D",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "I've had the pleasure of working alongside Bruk at A2SV, and he's been nothing short of exceptional. He's open, direct, and always speaks his mind, which makes collaborating with him so effective. Bruk works tirelessly to move A2SV forward, making insightful observations along the way. His dedication to selecting and training the next generation of tech talent is truly inspiring. Anyone looking to partner with a passionate and driven leader would find no one better than Bruk",
+      name: "Ali Gurlek",
+      designation: "Head of Operations",
+      company: "A2SV | Africa to Silicon Valley",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQHr5F_MlfqgbQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1669755330100?e=1737590400&v=beta&t=Bv2u-wn41cYQ8JY5z4QnNXxW_Mo2rbwXQVT6fuoG6f4",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "Bruk M is an outstanding colleague and a natural-born leader. We first met during A2SV's Cohort 3—he was in Group 32, and I was in Group 31. My initial impression of Bruk was during our Saturday morning social activities, watching him jump sky high during volleyball games. His energy and enthusiasm were contagious even then. When we both became Heads of Education for Cohort 4, after excelling in our own education program, I truly got to see Bruk's incredible capabilities. He's humble, hardworking, energetic, and exceptionally kind. Working alongside him was a pleasure, and his leadership skills were evident in every project we tackled. Now serving as the Deputy Head of Academy, Bruk is leading the G5 education program across three schools. He's responsible for over 260 students and manages a team of more than 25 Heads of Education and instructors. Under his guidance, this has become our most successful cohort to date. He's always striving to improve processes and never settles for less than excellence. Bruk's commitment to enhancing our programs and his relentless pursuit of improvement make him stand out. He's not just a colleague but an inspiration to everyone around him. I have no doubt that he will continue to achieve great things and reach new heights in his career. I wholeheartedly recommend Bruk for any opportunity that comes his way. He's a true asset to any team, and I'm excited to see all that he will accomplish in the future.",
+      name: "Biruk Zewdu",
+      designation: "Head of Academy",
+      company: "A2SV | Africa to Silicon Valley",
+      image: "https://media.licdn.com/dms/image/v2/D4E03AQGyTjXgJTKOUg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719842968226?e=1737590400&v=beta&t=-2rhObO-nh0fTTQ2uA7gRV0lwkVwv079JylpeS_D59A",
     },
   ];
   

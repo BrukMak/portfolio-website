@@ -6,6 +6,7 @@ import text from './text.json';
 import './style.css';
 import { main_pic, down_arrow } from '../assets';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
+import Loader from './Loader';
 
 
 
@@ -24,6 +25,7 @@ const Hero = () => {
 
 
   return (
+
     <section className='relative w-full h-screen mx-auto'>
   <div className={`${styles.paddingX} absolute inset-0 top-[120px] w-full h-full flex flex-row items-start gap-2`}>
     <div className='flex flex-col justify-center items-center mt-5'>
@@ -31,9 +33,10 @@ const Hero = () => {
       <div className='w-1 sm:h-80 h-40 violet-gradient' />
     </div>
     <div>
-      <h1 className={`${styles.heroHeadText}`}>Hi there  <span className="animate-wave">👋</span></h1>
-      <h1 className={`${styles.heroHeadText}`}>I'm <span className='text-[#3b82f6]'>Bruk Mekonnen</span></h1>
-      <span className='flex flex-row md:flex-row items-center md:items-start gap-4'>
+      {/* <Loader /> */}
+      <h1 className={`${styles.heroHeadText} text-[18px] sm:text-[32px] lg:text-[48px]`}>Hi there  <span className="animate-wave">👋</span></h1>
+      <h1 className={`${styles.heroHeadText} text-[18px] sm:text-[32px] lg:text-[48px]`}>I'm <span className='text-[#3b82f6]'>Bruk Mekonnen</span></h1>
+      <span className={`${styles.paddingX} flex flex-wrap s:w-[400px] md:flex-row items-center md:items-start gap-4`}>
         <span className='flex flex-col'> 
             <Tilt
             options={{
@@ -42,12 +45,12 @@ const Hero = () => {
               speed: 450,
             }}
 
-              className='p-5 rounded-2xl sm:w-[650px] w-full h-[100px] mt-[80px]  ring-1'
+              className='p-5 rounded-2xl w-full sm:w-[650px] h-auto mt-4 sm:mt-[80px] mx-auto ring-1'
               >
               <div className="detail-span-text "> {text} </div>
             
             </Tilt>
-            <h1 className='detail-span w-[650px] mt-[40px] text-aligh-left '>
+            <h1 className={`  detail-span w-[650px] mt-[40px] text-aligh-left `}>
             I'm a software engineer passionate about building scalable systems, solving challenging problems, 
             and creating impactful tech solutions. Beyond engineering, I've led A2SV tech academy, mentoring and teaching hundreds of 
             aspiring developers to shape the next wave of tech talent. From AI projects to competitive programming, I'm all about innovation, 
@@ -63,9 +66,9 @@ const Hero = () => {
               scale: 2,
               speed: 450,
             }}
-            className='p-5 rounded-2xl sm:w-[650px] w-full h-auto mt-[80px] ml-[50px]  ring-1'
+            className='p-5 rounded-2xl w-full sm:w-[650px] h-auto mt-4 sm:mt-[80px] mx-auto ring-11'
           >
-            <img className=" rounded-2xl w-[1000px] h-auto shadow-md" src={main_pic} alt="Main Pic" />
+            <img className=" rounded-2xl w-full h-auto " src={main_pic} alt="Main Pic" />
           </Tilt>
             
           

@@ -1,14 +1,20 @@
+Done
+- Make change on the hero section :Done
 - Drop the rotating desk: Done
+- The contact form ; Done
+    - Edit mode
+    - The information text should have transparency
+
+
+In progress
 - The header sucks: Not now
 - Change the balls to a card similar to the ones that has the skills above: ????
-- Include RateEat for the projects
+- Include RateEat for the projects. --- should I??
+
 - The overview talks about ML and below I have development stuff. So making it consistent
 - Include social media accounts
 - Animation with cursor
 - Dark mode and light mode
-- The contact form
-    - Edit mode
-    - The information text should have transparency
 - Testimonials from LinkedIn
 
 

@@ -7,9 +7,6 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-
-
-
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -67,7 +64,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden bg-black-100 rounded-2xl border `}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden rounded-2xl border `}
       >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}

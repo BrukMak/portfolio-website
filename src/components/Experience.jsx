@@ -1,4 +1,6 @@
 import React from "react";
+
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -58,7 +60,9 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
   return (
-    <>
+    <div>
+
+      
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-left`}>
           What I have done so far
@@ -78,7 +82,7 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </div>
   );
 };
 
